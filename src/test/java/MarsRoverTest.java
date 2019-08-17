@@ -10,10 +10,22 @@ class MarsRoverTest {
         assertEquals("1 2 E", marsRover.turnRight());
     }
     @Test
-    void positionShouldChange12WFrom12NForInstructionL()
+    void directionShouldChangeFromNorthToWest()
     {
         MarsRover marsRover = new MarsRover(new Coordinate(1,2),Direction.N);
         assertEquals("1 2 W",marsRover.turnLeft());
+    }
+    @Test
+    void positionShouldChangeFrom12NTo13N()
+    {
+        MarsRover marsRover = new MarsRover(new Coordinate(1,2),Direction.N);
+        assertEquals("1 3 N",marsRover.move());
+    }
+    @Test
+    void directionShouldChangeFromNorthToEastForInstructionL()
+    {
+        MarsRover marsRover = new MarsRover(new Coordinate(1,2),Direction.N);
+        assertEquals("1 2 W", marsRover.getFinalPosition("L"));
     }
 
 }

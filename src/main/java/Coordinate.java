@@ -13,4 +13,12 @@ public class Coordinate {
     public int getY() {
         return Y;
     }
+
+    public void moveX(int plusX) {
+        X += plusX;
+    }
+
+    public void moveY(int plusY) {
+        Y += plusY;
+    }
 }

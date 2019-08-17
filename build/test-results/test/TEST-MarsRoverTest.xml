@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MarsRoverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-17T16:51:24" hostname="in-Jalaludeenn.local" time="0.007">
+<testsuite name="MarsRoverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-17T17:29:37" hostname="in-Jalaludeenn.local" time="0.007">
   <properties/>
-  <testcase name="positionShouldNotBeChange()" classname="MarsRoverTest" time="0.007"/>
+  <testcase name="directionShouldChangeFromNorthToEastForInstructionL()" classname="MarsRoverTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
